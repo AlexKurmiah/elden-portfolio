@@ -1,0 +1,24 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-bottom: 1px solid var(--gold);
+}
+
+.menu-btn {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.menu-btn:hover {
+  background: var(--gold);
+  color: var(--dark);
+}
