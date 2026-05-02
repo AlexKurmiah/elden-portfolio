@@ -1,0 +1,25 @@
+/* Import a font that feels ancient and epic */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+/* CSS variables — think of these as reusable colour swatches */
+:root {
+  --gold: #c9a84c;
+  --gold-bright: #f0d080;
+  --dark: #0a0a0a;
+  --dark-mid: #1a1610;
+  --text: #d4c5a9;
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--text);
+  font-family: 'Cinzel', serif;
+  min-height: 100vh;
+}
