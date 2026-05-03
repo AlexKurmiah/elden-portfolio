@@ -1,8 +1,11 @@
 import "./about.css";
+import useReveal from "../hooks/useReveal";
 
 export default function About() {
+  const ref = useReveal();
+
   return (
-    <section className="about" id="about">
+    <section className="about reveal" id="about" ref={ref}>
       <h2 className="section-title">About Me</h2>
       <div className="about-card">
         <p className="about-text">

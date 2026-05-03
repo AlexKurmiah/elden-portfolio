@@ -1,0 +1,43 @@
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+  text-align: center;
+}
+
+.contact-card {
+  border: 1px solid var(--gold);
+  padding: 3rem 2rem;
+  background: rgba(201, 168, 76, 0.03);
+}
+
+.contact-text {
+  color: var(--text);
+  font-family: 'Cinzel', serif;
+  line-height: 1.9;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.5rem;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: var(--gold);
+  color: var(--dark);
+}

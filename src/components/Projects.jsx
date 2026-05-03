@@ -24,9 +24,12 @@ const projects = [
   }
 ];
 
+import useReveal from "../hooks/useReveal";
+
 export default function Projects() {
+  const ref = useReveal();
   return (
-    <section className="projects" id="projects">
+    <section className="projects reveal" id="projects" ref={ref}>
       <h2 className="section-title">Projects</h2>
       <div className="projects-grid">
         {projects.map((project) => (

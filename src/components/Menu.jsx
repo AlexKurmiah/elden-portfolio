@@ -3,9 +3,9 @@ import "./menu.css";
 export default function Menu() {
   return (
     <nav className="menu">
-      <button className="menu-btn">About Me</button>
-      <button className="menu-btn">Projects</button>
-      <button className="menu-btn">Contact</button>
+      <a className="menu-btn" href="#about">About Me</a>
+      <a className="menu-btn" href="#projects">Projects</a>
+      <a className="menu-btn" href="#contact">Contact</a>
     </nav>
   );
 }
